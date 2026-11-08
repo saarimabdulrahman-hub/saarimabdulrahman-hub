@@ -1,102 +1,91 @@
 <!-- 
   GitHub Profile README — Saarim Abdul Rahman
-  Create a PUBLIC repo named "saarimabdulrahman-hub" on GitHub
-  and push this README.md to it.
 -->
 
 ### Hi there 👋 I'm Saarim Abdul Rahman
 
-*AI Engineer · LLMs, Computer Vision & Conversational AI · Building Production-Ready AI Systems*
+*AI Systems Engineer · LLMs, Autonomous AI Agents, RAG & Production-Ready Backend Systems*
 
 ---
 
 ## 🚀 About Me
 
-I'm an AI Engineer by training with a builder's instinct. Academically grounded in artificial intelligence, I don't stop at models — I ship them inside real applications. My work spans **large language model pipelines**, **computer vision systems**, and **conversational AI agents**, all built end-to-end with production deployment in mind.
+I'm a **Production AI Engineer** who builds and deploys end-to-end intelligent systems. Academically grounded in artificial intelligence and machine learning (Osmania University), I bridge the gap between cutting-edge AI research and robust, scalable backend architectures.
 
-What I've built so far: an AI photo editor that turns natural language into image transformations via Claude and Replicate APIs, a live-deployed German tutor chatbot powered by LLMs, a real-time vehicle detection and speed estimation system with OpenCV, and a full garage management SaaS with an embedded AI advisor. I reach for **FastAPI + Next.js** to tie it all together, and I deploy what I build — not just notebooks, not just demos.
+My work spans **autonomous AI agent orchestration**, **enterprise RAG pipelines**, **low-latency streaming APIs**, and **explainable ML models** deployed with Docker, FastAPI, PostgreSQL/pgvector, and Redis.
 
-I'm currently diving deeper into **RAG architectures, Hugging Face tooling, MLOps pipelines, and cloud-native AI deployment** — the infrastructure that separates production AI from toy projects.
-
-- 🔭 Actively building **Lensora** — an AI-powered conversational photo & video editor
-- 🧠 Growing into **MLOps, LangChain/RAG, and AWS cloud AI services**
-- 💬 Talk to me about **LLM integration, computer vision, FastAPI, or full-stack AI architecture**
-- 📍 Hyderabad, India
+- 🔭 Architecting **Engineering OS** — a zero-dependency AI Agent orchestration kernel with a DAG scheduler
+- ⚡ Shipping production applications with **Claude, Gemini, DeepSeek, and OpenAI**
+- 🛠️ Specializing in **Model Context Protocol (MCP), Context Engineering, and Real-Time WebSocket Streaming**
+- 📍 Hyderabad, India · Open to AI Engineer / Machine Learning Engineer roles (Full-time & Remote)
 
 ---
 
-## 🛠️ Projects
+## 🛠️ Flagship Projects
 
-### [📸 Lensora](https://github.com/saarimabdulrahman-hub/ai-photo-video-editor) — Conversational AI Photo & Video Editor
-*Claude API · Replicate · Next.js 16 · FastAPI · FFmpeg · WebSockets*
+### [⚙️ Engineering OS](https://github.com/saarimabdulrahman-hub/engineering-os) — AI Agent Orchestration Kernel
+*Python · Microkernel Architecture · Topological DAG Scheduler · Multi-Agent Governance*
 
-Describe your edit in natural language — *"crop to 16:9, remove the background, make colors moodier"* — and an LLM-powered pipeline plans and executes it. Three UI tiers (Magic, Guided, Manual), real-time WebSocket progress for video processing, and export to MP4, GIF, PNG, JPG. A full-stack AI application from prompt to pixels.
-
----
-
-### [🇩🇪 DeutschCoach](https://github.com/saarimabdulrahman-hub/-deutschcoach) — LLM-Powered German Tutor · **[Live →](https://deutschcoach-web.vercel.app)**
-*Claude/DeepSeek API · Next.js 16 · FastAPI · Stripe · SM-2 Spaced Repetition*
-
-A production-deployed A1-to-C1 German learning platform. AI chat tutor for conversational practice with scenario-based prompting, auto-generated quizzes, SM-2 spaced repetition for vocabulary retention, grammar browser, and Stripe subscription tiers. Monorepo architecture, live on Vercel.
+A bespoke, zero-dependency orchestration kernel designed for deterministic multi-agent state machines. Eliminates the bloat of off-the-shelf frameworks while providing fine-grained control over model routing, fallback policies, context isolation, and parallel tool-calling execution.
 
 ---
 
-### [🚗 Vehicle Detection & Speed Estimation](https://github.com/saarimabdulrahman-hub/mini-project) — Computer Vision System
-*Python · OpenCV · Haar Cascade*
+### [🇩🇪 DeutschCoach](https://github.com/saarimabdulrahman-hub/deutschcoach) — LLM-Powered German Tutor · **[Live Demo →](https://deutschcoach-web.vercel.app)**
+*Claude API · DeepSeek API · Next.js 16 · FastAPI · PostgreSQL · SM-2 Spaced Repetition*
 
-Real-time vehicle detection and speed estimation using monocular computer vision. Detects vehicles via Haar Cascade classifiers, estimates velocity through bounding-box-based distance calculation with focal length calibration. Works with both live webcam feed and pre-recorded video.
-
----
-
-### [🌐 Idioma](https://github.com/saarimabdulrahman-hub/idioma) — AI-Powered Language Marketplace
-*Next.js 16 · Prisma · PostgreSQL · Stripe · NextAuth · Framer Motion*
-
-A marketplace where instructors create and sell language courses, enhanced with AI chat assistant and smart course recommendations. SM-2 flashcards, quiz engine, instructor earnings dashboard, course reviews, wishlists, and multi-language i18n.
+A production-deployed A1-to-C1 German learning SaaS. Features an adaptive AI conversational tutor with Context Engineering, dynamic error diagnosis, SM-2 flashcards, and multi-tier subscription access. Sub-400ms token streaming inference over WebSockets.
 
 ---
 
-### [🚙 GCC Car Value](https://github.com/saarimabdulrahman-hub/gcc-car-value) — ML-Powered Car Valuation Engine
-*FastAPI · PostgreSQL · LightGBM · SHAP · BeautifulSoup4 · Claude API*
+### [🚙 GCC Car Value](https://github.com/saarimabdulrahman-hub/gcc-car-value) — ML Valuation & Explainability Engine
+*FastAPI · PostgreSQL · LightGBM · SHAP · OpenTelemetry · Docker*
 
-Car valuation platform for the Gulf market. Multi-stage data pipeline scraping 9+ sources (parse → validate → normalize → deduplicate). Statistical and ML valuation models with SHAP explainability, plus AI-generated natural-language explanations via Claude.
-
----
-
-### [💧 Water Quality Prediction](https://github.com/saarimabdulrahman-hub/water-quality-prediction) — Classification Ensemble
-*Django · scikit-learn · TensorFlow · XGBoost · Pandas*
-
-ML-powered web app predicting water potability from 9 physicochemical parameters. Trains and benchmarks Decision Tree, KNN, Random Forest, and Gradient Boosting classifiers with full evaluation suite.
+Enterprise vehicle valuation platform for the Gulf market. Features a multi-stage data ingestion pipeline across classifieds data, an ensemble LightGBM regression engine, and real-time SHAP feature attribution with transparent pricing drivers and OpenTelemetry observability.
 
 ---
 
-### [🚘 Car Guys OS](https://github.com/saarimabdulrahman-hub/car-guys-os) — AI-Integrated SaaS for Auto Shops
-*Next.js 16 · FastAPI · MySQL · Docker · AI Advisor*
+### [🚘 Car Guys OS](https://github.com/saarimabdulrahman-hub/car-guys-os) — Full-Stack AI Garage OS
+*Next.js 16 · FastAPI · PostgreSQL · Docker Compose · AI Diagnostics Advisor*
 
-A complete garage management operating system with 30+ domain entities — customers, vehicles, work orders, invoices, inventory, Digital Vehicle Inspections, and an embedded AI advisor. Includes customer portal, PDF report generation, analytics dashboard, and full Docker Compose orchestration.
+A complete automotive service SaaS centralizing 30+ domain models (work orders, customer portal, invoices, DVI inspections). Integrates an embedded AI diagnostic advisor that analyzes vehicle telemetry and generates automated repair recommendations.
+
+---
+
+### [📸 Lensora](https://github.com/saarimabdulrahman-hub/lensora) — Conversational AI Media Editing Platform
+*Claude API · FastAPI · Docker · Redis · FFmpeg · WebSockets*
+
+An AI-agent-driven platform where LLM structured outputs dynamically compile natural language requests into multi-step video editing execution plans. Handles async task queuing with Redis and real-time streaming progress over WebSockets.
+
+---
+
+### [🌐 Idioma](https://github.com/saarimabdulrahman-hub/idioma) — AI Course Generation Marketplace
+*Next.js 16 · Prisma · PostgreSQL · Stripe · NextAuth*
+
+An educational marketplace empowering course creators with intelligent agentic workflow automation, personalized curricula generation, and interactive learning modules.
 
 ---
 
 ## 💻 Tech Stack
 
-| Layer | Tools |
-|-------|-------|
-| **AI & LLMs** | Claude API · DeepSeek API · Replicate API · OpenCV · scikit-learn · TensorFlow · SHAP |
-| **Languages** | Python · TypeScript · JavaScript |
-| **Backend** | FastAPI · Django · Next.js API Routes · SQLAlchemy · Prisma |
-| **Frontend** | React 19 · Next.js 16 · Tailwind CSS v4 · TanStack React Query |
-| **Databases** | MySQL · PostgreSQL · SQLite |
-| **Infrastructure** | Docker · Vercel · Alembic · FFmpeg |
-| **Payments & Auth** | Stripe · JWT · NextAuth |
+| Domain | Technologies |
+|---|---|
+| **AI & LLMs** | Large Language Models (Claude, OpenAI, Gemini, DeepSeek) · Autonomous AI Agents · Tool/Function Calling · Structured Outputs · Model Context Protocol (MCP) · Context Engineering · RAG · Semantic & Hybrid Search |
+| **Machine Learning** | PyTorch · TensorFlow · Scikit-learn · LightGBM · XGBoost · SHAP Explainability · Pandas · NumPy |
+| **Backend & APIs** | Python · FastAPI · Django · AsyncIO · WebSockets · REST APIs · SQLAlchemy · Prisma |
+| **Databases & Caching** | PostgreSQL · pgvector · Redis · MongoDB · MySQL |
+| **Infrastructure & DevOps** | Docker · Docker Compose · Linux · Git · GitHub Actions · CI/CD · OpenTelemetry |
+| **Frontend** | TypeScript · JavaScript · React 19 · Next.js 16 · Tailwind CSS |
 
 ---
 
 ## 📫 Let's Connect
 
 - 📧 **Email:** [hello.saarim@gmail.com](mailto:hello.saarim@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/saarim-abdul-rahman3417](https://linkedin.com/in/saarim-abdul-rahman3417)
+- 💼 **LinkedIn:** [linkedin.com/in/saarim-abdul-rahman](https://linkedin.com/in/saarim-abdul-rahman)
+- 🌐 **Portfolio / Live Demo:** [deutschcoach-web.vercel.app](https://deutschcoach-web.vercel.app)
 
 ---
 
 <p align="center">
-  <i>Open to opportunities in AI Engineering — LLMs, computer vision, and production AI systems.</i>
+  <i>Open to opportunities in AI Engineering — Autonomous Agents, LLM Systems, and Scalable Backend Architecture.</i>
 </p>
